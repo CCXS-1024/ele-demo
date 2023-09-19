@@ -3,9 +3,9 @@ import { createApp } from 'vue'
 import 'vant/lib/index.css'
 
 import App from './App.vue'
-import router from './router'
-import 'amfe-flexible'
 
-import 'vant/es/dialog/style'
+import router from './router'
+
+import 'amfe-flexible'
 
 createApp(App).use(router).mount('#app')
